@@ -41,13 +41,7 @@ body{
               justify-items: center;
             
 }
-@media (max-width : 768px){
 
-              .menu{
-              display: none;
-             
-}             
-}
 
 .top-section{
               text-align: center;
@@ -87,4 +81,36 @@ body{
               border: none;
               font-weight: bold;
               cursor:pointer;
+}
+
+@media (max-width : 900px){
+
+              .menu{
+              display: none;
+             
+} 
+.grid-container{
+              display: grid;
+              grid-template-columns: repeat(2,1fr);
+              gap: 20px;
+              width: 80%;
+              margin: auto;
+
+}            
+}
+
+@media (max-width : 600px){
+
+              .menu{
+              display: none;
+             
+} 
+.grid-container{
+              display: grid;
+              grid-template-columns: repeat(1,1fr);
+              gap: 20px;
+              width: 80%;
+              margin: auto;
+
+}            
 }
