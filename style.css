@@ -1,0 +1,40 @@
+*{
+    margin: 0; 
+    padding: 0;  
+    box-sizing: border-box;      
+}
+
+body{
+              background: #fff;
+}
+.navbar{
+              display: flex;
+              justify-content:space-between;
+              align-items: center;
+              padding: 15px, 40px;
+              border: 1px solid #ccc;
+}
+.logo{
+              font-size: 26px;
+              font-weight: bold;
+              color: rgb(6, 70, 172);
+}
+.menu{
+              display: flex;
+              list-style: none;
+              gap: 25px;
+                color: rgb(6, 147, 172);
+}
+.menu li{
+              cursor:pointer ;
+              font-size: 18px;
+}
+.dowload-btn{
+              padding: 8px 16px;
+              background: red;
+              color: #fff;
+              border: 0;
+              cursor: pointer;
+              font-weight: bold;
+              border-radius: 4px;
+}
